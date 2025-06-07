@@ -3,14 +3,17 @@ import './App.css'
 function App() {
   return (
     <> 
-      <div>
-      <p>Hello world</p>
-      </div>
-      <div>
-      <p>hello world</p>
-      </div>
+      <Text />
+      <Text />    
     </>
   )
 }
 
+function Text(){
+  return(
+    <div>
+      <p>Text component</p>
+    </div>
+  );
+}
 export default App
